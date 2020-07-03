@@ -1,0 +1,6 @@
+﻿commands to help in automation development
+
+To Clear and Kill chromeDriver.
+Open CMD
+and Type: taskkill /f /im chromedriver.exe
+
