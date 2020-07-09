@@ -10,12 +10,11 @@ namespace SeleniumProject.Utilities
 {
     public class BrowserUtility
     {
-        public IWebDriver init(IWebDriver okami) 
+        public IWebDriver init(IWebDriver Driver) 
         {
-            okami = new ChromeDriver();
-            okami.Manage().Window.Maximize();
-            okami.Url = "https://www.facebook.com/";
-            return okami;
+            Driver = new ChromeDriver();
+            Driver.Manage().Window.Maximize();
+            return Driver;
         }
     }
 }

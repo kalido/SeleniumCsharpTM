@@ -5,10 +5,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace SeleniumProject.BaseClass
 {
+    
     public class BaseTest
     {
         public IWebDriver driver;
@@ -28,7 +30,8 @@ namespace SeleniumProject.BaseClass
         [TearDown]
         public void Close()
         {
-            driver.Quit();
+            driver.Dispose();
+            driver = null;
         }
     }
 }

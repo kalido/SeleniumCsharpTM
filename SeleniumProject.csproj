@@ -89,7 +89,7 @@
   <ItemGroup>
     <Compile Include="BaseClass\BaseTest.cs" />
     <Compile Include="Utilities\Reports.cs" />
-    <Compile Include="TestScripts\TestClass.cs" />
+    <Compile Include="TestScripts\HomeYoutube.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\BrowserUtility.cs" />
     <Compile Include="WebElements\HomePage.cs" />
