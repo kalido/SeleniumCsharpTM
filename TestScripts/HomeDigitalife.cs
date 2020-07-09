@@ -15,7 +15,7 @@ using SeleniumProject.WebElements;
 namespace SeleniumProject
 {
     [TestFixture]
-    public class HomeYoutube
+    public class HomeDigitalife
     {
         IWebDriver driver;
         //
