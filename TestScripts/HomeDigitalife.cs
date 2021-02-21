@@ -26,7 +26,7 @@ namespace SeleniumProject
             Driver.Url = "https://www.digitalife.com.mx/";
             HomePage home = new HomePage(Driver);
             home.SearchBox.SendKeys("RX 5700");
-            Thread.Sleep(5000);
+            Thread.Sleep(3000);
             Driver.Close();
         }
 
@@ -37,7 +37,7 @@ namespace SeleniumProject
             Driver.Url = "https://www.digitalife.com.mx/";
             HomePage home = new HomePage(Driver);
             home.SearchBox.SendKeys("RTX 2060");
-            Thread.Sleep(5000);
+            Thread.Sleep(3000);
             Driver.Close();
         }
 
@@ -48,7 +48,7 @@ namespace SeleniumProject
             Driver.Url = "https://www.digitalife.com.mx/";
             HomePage home = new HomePage(Driver);
             home.SearchBox.SendKeys("Ryzen 5");
-            Thread.Sleep(5000);
+            Thread.Sleep(3000);
             Driver.Close();
         }
 
